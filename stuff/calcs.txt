@@ -1,0 +1,11 @@
+20kHz highest audible freq
+40kHz min sampling freq
+100kHz nice round number, enough oversampling
+
+216MHz sysclk
+
+12b DAC 4095
+s=-1..1, m=0.5, dac=(1.0+s*m)*2047
+
+108MHz APB1 timer 6
+f_cnt=APB1/(presc+1), presc=1079
